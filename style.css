@@ -84,7 +84,10 @@ body {
   margin-top: 10px;
   font-size: 18px;
 }
-
+.hero img:hover { 
+  transform: rotate(-3deg) scale(1.05);
+  transition: transform 0.4s ease; 
+}
 /* SECTIONS */
 .section {
   max-width: 1100px;
@@ -189,6 +192,10 @@ body {
 
 .contact-icons a:hover {
   transform: scale(1.2);
+}
+.scroll-top:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(99,102,241,0.5);
 }
 
 /* FOOTER */
